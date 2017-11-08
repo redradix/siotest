@@ -3,10 +3,9 @@
   "version": "0.0.1",
   "description": "A CLI to send events via Socket.io",
   "bin": {
-    "siotest": "./distribution/index.js"
+    "siotest": "./lib/index.js"
   },
   "scripts": {
-    "build": "babel lib --presets babel-preset-es2015 --out-dir distribution",
     "main": "index",
     "test": "mocha test"
   },
@@ -18,8 +17,6 @@
     "socket.io-client": "^1.3.5"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
     "mocha": "^3.2.0",
