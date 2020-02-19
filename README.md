@@ -26,3 +26,5 @@ Params
 | -u, --socket-url       | Socket address                   |                true |
 | -g, --generator-path   | Event generator path             |                true |
 | -o, --output           | Output filepath                  |     false (console) |
+| --key-path             | Key file path                    |     false (console) |
+| --cert-path            | Cert file path                   |     false (console) |
